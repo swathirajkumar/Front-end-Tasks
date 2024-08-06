@@ -1,0 +1,65 @@
+#heading:hover{
+    background-color:chocolate;
+    text-align: center;
+    color:rgba(157, 23, 235, 0.911);
+    border: 10px;
+    border-radius: 50px;
+    width:100%;
+}
+
+h1{
+    text-align:center;
+}
+#heading1{
+    font-size: high;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:wheat;
+    font-family: cursive;
+}
+#para{
+    font-family: cursive;
+}
+#image{
+      width: 300;
+      height: 200px;
+      border-radius: 50px;
+      box-shadow: 10px 10px 10px gray;
+      border: 10px solid gray;
+}
+#heading2{
+        font-size: high;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#image1{
+    width: 300;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px gray;
+    border: 10px solid gray;
+}
+#para2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#button{
+    background-color: black;
+    color: blue;
+}
+#reddy{
+    color: blueviolet;
+    background-color: brown;
+}
+#image2{
+    height: 300px;
+    border: 10px solid gray;
+
+}
+#dhobi{
+    display: inline-block;
+    width: 800px;
+    height: 300px;
+    overflow: auto;
+}

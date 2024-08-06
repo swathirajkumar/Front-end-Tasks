@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        form {
+            margin-bottom: 20px;
+        }
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="submit"],
+        input[type="reset"],
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+        }
+        
+        iframe {
+            margin-top: 20px;
+            width: 100%;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+        
+        marquee {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sample Web Page</h1>
+    <p>
+        1. Design the web page using all the below input attributes type =text, password, submit, reset, radio, checkbox, button<br>2. HTML5 input Types type=number, range, color, date, file, time, month, week, email<br> 3. Apply all of the below input
+        restrictions disabled, max, maxlength, min, readonly, required, size, value<br> 4. Develop a web page using target attribute. 5. Use I-frames and Marquee in your webpage </p>
+
+    <form action="submit_page.html" method="post" target="_blank">
+        <div class="input-group">
+            <label for="text-input">Text Input</label>
+            <input type="text" id="text-input" name="text-input" required maxlength="20">
+        </div>
+
+        <div class="input-group">
+            <label for="password-input">Password Input</label>
+            <input type="password" id="password-input" name="password-input" required>
+        </div>
+
+        <div class="input-group">
+            <label>Radio Input</label>
+            <input type="radio" id="radio1" name="radio-input" value="option1" required>
+            <label for="radio1">Option 1</label>
+            <input type="radio" id="radio2" name="radio-input" value="option2">
+            <label for="radio2">Option 2</label>
+        </div>
+
+        <div class="input-group">
+            <label>Checkbox Input</label>
+            <input type="checkbox" id="checkbox1" name="checkbox-input" value="option1" required>
+            <label for="checkbox1">Option 1</label>
+            <input type="checkbox" id="checkbox2" name="checkbox-input" value="option2">
+            <label for="checkbox2">Option 2</label>
+        </div>
+
+        <div class="input-group">
+            <label for="number-input">Number Input</label>
+            <input type="number" id="number-input" name="number-input" min="1" max="10" required>
+        </div>
+
+        <div class="input-group">
+            <label for="range-input">Range Input</label>
+            <input type="range" id="range-input" name="range-input" min="0" max="100" value="50">
+        </div>
+
+        <div class="input-group">
+            <label for="color-input">Color Input</label>
+            <input type="color" id="color-input" name="color-input" value="#ff0000">
+        </div>
+
+        <div class="input-group">
+            <label for="date-input">Date Input</label>
+            <input type="date" id="date-input" name="date-input" required>
+        </div>
+
+        <div class="input-group">
+            <label for="file-input">File Input</label>
+            <input type="file" id="file-input" name="file-input" required>
+        </div>
+
+        <div class="input-group">
+            <label for="time-input">Time Input</label>
+            <input type="time" id="time-input" name="time-input" required>
+        </div>
+
+        <div class="input-group">
+            <label for="month-input">Month Input</label>
+            <input type="month" id="month-input" name="month-input" required>
+        </div>
+
+        <div class="input-group">
+            <label for="week-input">Week Input</label>
+            <input type="week" id="week-input" name="week-input" required>
+        </div>
+
+        <div class="input-group">
+            <label for="email-input">Email Input</label>
+            <input type="email" id="email-input" name="email-input" required>
+        </div>
+
+        <div class="input-group">
+            <label for="button-input">Button</label>
+            <button type="button" id="button-input">Click Me</button>
+        </div>
+
+        <div class="input-group">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+    <iframe src="https://www.example.com" title="Example Iframe"></iframe>
+
+    <marquee behavior="scroll" direction="left">This is a scrolling marquee text!</marquee>
+</body>
+
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Flexbox</h2>
+    <p>Before the Flexbox Layout module, there were four layout modes:
+
+        Block, for sections in a webpage
+        Inline, for text
+        Table, for two-dimensional table data
+        Positioned, for explicit position of an element
+        The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.</p>
+       
+       <h2>The flex container properties are:</h2>
+       <h3>1.flex-direction</h3> 
+       <h3>2.flex-wrap</h3> 
+       <h3>3.flex-flow</h3>  
+       <h3>4.justify-content</h3> 
+       <h3>5. align-items</h3>
+       <h3>6.align-content</h3> 
+
+      <h2>1.flex-direction</h2>
+      <p>The flex-direction Property
+      The flex-direction property defines in which direction the container wants to stack the flex items.</p>
+      <h4>In this we have 4 types</h4>
+      <h4>1.Row= Which takes from left to right</h4>
+      <h4>2.column=Which takes from top to bottom</h4>
+      <h4>3.Row-reverse=Which takes from right to left</h4>
+      <h4>4.Column-reverse=Which takes from bottom to top </h4>
+
+    <div >
+        <h3>1.column</h3>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </div>
+    
+    <div class="mainHeading">
+        <h3>2.Row</h3>
+        <div class="container1">
+            <div class="item1">1</div>
+            <div class="item1">2</div>
+            <div class="item1">3</div>
+        </div>
+    </div>
+
+    <div class="mainHeading1">
+        <h3>3.Row-reverse</h3>
+        <div class="container2">
+            <div class="item2">1</div>
+            <div class="item2">2</div>
+            <div class="item2">3</div>
+        </div>
+    </div>
+
+    <div class="mainHeading2">
+        <h3>4.Column-reverse</h3>
+        <div class="container3">
+            <div class="item3">1</div>
+            <div class="item3">2</div>
+            <div class="item3">3</div>
+        </div>
+    </div>
+
+    <div class="wrapDiv">
+    <h3>2.flex-wrap</h3>
+    <p>The flex-wrap Property
+        The flex-wrap property specifies whether the flex items should wrap or not.
+    </p>
+    <h4>The flex-wrap are of 3 types</h4>
+    <h4>1.wrap</h4>
+    <h4>2.No-wrap</h4>
+    <h4>3.wrap-reverse</h4>
+     
+       <h3>1.No-wrap:The default is no wrap</h3>
+        <div class="flex-container">
+            <div class="flex-item">1</div>
+            <div class="flex-item">2</div>
+            <div class="flex-item">3</div>  
+            <div class="flex-item">4</div>
+            <div class="flex-item">5</div>
+            <div class="flex-item">6</div>  
+            <div class="flex-item">7</div>
+            <div class="flex-item">8</div>
+            <div class="flex-item">9</div>  
+            <div class="flex-item">10</div>
+            <div class="flex-item">11</div>
+            <div class="flex-item">12</div>  
+          </div>
+         
+          <div class="wrapDiv1">
+          <h3>2.wrap</h3>
+            <div class="flex-container1">
+            <div class="flex-item1">1</div>
+            <div class="flex-item1">2</div>
+            <div class="flex-item1">3</div>  
+            <div class="flex-item1">4</div>
+            <div class="flex-item1">5</div>
+            <div class="flex-item1">6</div>  
+            <div class="flex-item1">7</div>
+            <div class="flex-item1">8</div>
+            <div class="flex-item1">9</div>  
+            <div class="flex-item1">10</div>
+            <div class="flex-item1">11</div>
+            <div class="flex-item1">12</div>  
+          </div>
+        </div>
+
+        <div class="wrapDiv2">
+            <h3>3.wrap-reverse</h3>
+              <div class="flex-container2">
+              <div class="flex-item2">1</div>
+              <div class="flex-item2">2</div>
+              <div class="flex-item2">3</div>  
+              <div class="flex-item2">4</div>
+              <div class="flex-item2">5</div>
+              <div class="flex-item2">6</div>  
+              <div class="flex-item2">7</div>
+              <div class="flex-item2">8</div>
+              <div class="flex-item2">9</div>  
+              <div class="flex-item2">10</div>
+              <div class="flex-item2">11</div>
+              <div class="flex-item2">12</div>  
+            </div>
+          </div>
+
+
+          <div class="flexDiv">
+          <h3>3.flex-flow</h3>
+          <p>The flex-flow Property
+          The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.</p>
+          <p>In this I am using using both row and wrap. similarly we can also use all the properties of display-direction and wrap</p>
+          <div class="flex-flowcontainer">
+            <div class="flex-flowitem">1</div>
+            <div class="flex-flowitem">2</div>
+            <div class="flex-flowitem">3</div>  
+            <div class="flex-flowitem">4</div>
+            <div class="flex-flowitem">5</div>
+            <div class="flex-flowitem">6</div>  
+            <div class="flex-flowitem">7</div>
+            <div class="flex-flowitem">8</div>
+            <div class="flex-flowitem">9</div>  
+            <div class="flex-flowitem">10</div>
+            <div class="flex-flowitem">11</div>
+            <div class="flex-flowitem">12</div>  
+          </div>
+        </div>
+
+        <div class="justifyDiv">
+        <h2>4.justify-content</h2>
+        <p> they are of 3 types</p>
+        <h3>center</h3>
+        <h3>Start</h3>
+        <h3>end</h3>
+        <h4>1.Center</h4>
+        <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+        <div class="justifyContainer">
+            <div class="justifyitem">1</div>
+            <div class="justifyitem">2</div>
+            <div class="justifyitem">3</div>  
+          </div>
+
+          <h4>2.Start</h4>
+          <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+          <div class="justifyContainer2">
+              <div class="justifyitem">1</div>
+              <div class="justifyitem">2</div>
+              <div class="justifyitem">3</div>  
+            </div>
+        </div> 
+
+        <div class="alignDiv">
+        <h2>5. align-items</h2>
+        <p> they are of 3 types</p>
+        <h3>center</h3>
+        <h3>Start</h3>
+        <h3>end</h3>
+        <h4>1.Center</h4>
+        <p>The "align-items: center;" aligns the flex items at the center of the container:</p>
+        <div class="align-content">
+            <div class="alignitem">1</div>
+            <div class="alignitem">2</div>
+            <div class="alignitem">3</div>  
+          </div>
+
+          <h4>2.Start</h4>
+          <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+          <div class="align-content2">
+              <div class="alignitem">1</div>
+              <div class="alignitem">2</div>
+              <div class="alignitem">3</div>  
+            </div>
+
+            <h4>3.end</h4>
+            <p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
+            <div class="align-content3">
+                <div class="alignitem">1</div>
+                <div class="alignitem">2</div>
+                <div class="alignitem">3</div>  
+              </div>
+        </div> 
+    </div>
+    
+    <div class="example1 exampleDiv1" >
+        <h2>Some combinations of flex</h2>
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+        <div class="alignitem">item4</div>
+        <div class="alignitem">item5</div>
+        <div class="alignitem">item6</div>
+        <div class="alignitem">item7</div>
+        <div class="alignitem">item8</div>
+        <div class="alignitem">item9</div>
+    </div>
+
+    <div class="example2 exampleDiv2" >
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+        <div class="alignitem">item4</div>
+        <div class="alignitem">item5</div>
+        <div class="alignitem">item6</div>
+        <div class="alignitem">item7</div>
+        <div class="alignitem">item8</div>
+        <div class="alignitem">item9</div>
+    </div>
+
+    <div class= "example3 exampleDiv3">
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+        <div class="alignitem">item4</div>
+        <div class="alignitem">item5</div>
+        <div class="alignitem">item6</div>
+        <div class="alignitem">item7</div>
+        <div class="alignitem">item8</div>
+        <div class="alignitem">item9</div>
+    </div>
+    
+    <div class= "example4 exampleDiv4">
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+        <div class="alignitem">item4</div>
+        <div class="alignitem">item5</div>
+        <div class="alignitem">item6</div>
+        <div class="alignitem">item7</div>
+        <div class="alignitem">item8</div>
+        <div class="alignitem">item9</div>
+    </div>
+
+    <div class= "example5 exampleDiv5">
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+        <div class="alignitem">item4</div>
+        <div class="alignitem">item5</div>
+        <div class="alignitem">item6</div>
+        <div class="alignitem">item7</div>
+        <div class="alignitem">item8</div>
+        <div class="alignitem">item9</div>
+    </div>
+
+    <div class= "example6 exampleDiv6">
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+        <div class="alignitem">item4</div>
+        <div class="alignitem">item5</div>
+        <div class="alignitem">item6</div>
+        <div class="alignitem">item7</div>
+        <div class="alignitem">item8</div>
+        <div class="alignitem">item9</div>
+    </div>
+
+
+    <div class= "example8 exampleDiv8">
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+    </div>
+    <div class= "example9 exampleDiv9">
+        <div class="alignitem">item1</div>
+        <div class="alignitem">item2</div>
+        <div class="alignitem">item3</div>
+    </div>
+</body>
+</html>

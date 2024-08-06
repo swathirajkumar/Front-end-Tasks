@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.p1{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.p2{
+    font-size: 3rem ;
+}
+h2{
+    color: blueviolet;
+}
+.p3{
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: large;
+}
+.p4{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: small;
+}
+.p5{
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

@@ -1,0 +1,340 @@
+.container{
+    width:300px;
+    height: 200px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    width:90px ;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+}
+.container1{
+    width:300px;
+    height: 200px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: row;
+
+}
+.item1{
+    width:90px ;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+}
+.mainHeading{
+    position: relative;
+    bottom:260px;
+    left:310px;
+}
+.mainHeading1{
+    position: relative;
+    bottom: 520px;
+    left:620px;
+}
+.container2{
+    width:300px;
+    height: 200px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: row-reverse;
+}
+.item2{
+    width:90px ;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+}
+.mainHeading2{
+    position: relative;
+    bottom: 780px;
+    left: 930px;
+}
+.container3{
+    width:300px;
+    height: 200px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.item3{
+    width:90px ;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+}
+.flex-container{
+    width:800px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-item{
+    width:90px ;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+}
+.wrapDiv{
+    position: relative;
+    bottom: 780px;
+    left: 0px;
+}
+.flex-container1
+    {
+        width:500px;
+        height: 540px;
+        background-color: rgb(212, 12, 12);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+.flex-item1{
+        width:90px ;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(179, 231, 10);
+        border: 10px groove rgb(19, 3, 3);
+    }
+.wrapDiv1{
+    position: relative;
+    bottom: 600px;
+    left: 810px;
+}
+.flex-container2
+    {
+        width:800px;
+        height: 200px;
+        background-color: rgb(212, 12, 12);
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    
+.flex-item2{
+    width:90px ;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+    }
+.wrapDiv2{
+    position: relative;
+    bottom: 600px;
+   
+}
+.flex-flowcontainer{
+    width:800px;
+    height: 200px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-flowitem{
+    width:90px ;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+}
+.flexDiv{
+    position: relative;
+    bottom: 600px;
+}
+.justifyContainer{
+    width:800px;
+    height: 100px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    justify-content: center;
+}
+.justifyitem{
+    width:90px ;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(179, 231, 10);
+    border: 10px groove rgb(19, 3, 3);
+}
+.justifyDiv
+{
+    position: relative;
+    bottom: 600px;
+}
+.justifyContainer2{
+    width:800px;
+    height: 100px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    justify-content: start;
+}
+.align-content{
+    
+        width:800px;
+        height: 500px;
+        background-color: rgb(212, 12, 12);
+        display: flex;
+        align-items: center;
+}
+.alignitem{
+        width:90px ;
+        height: 60px;
+        text-align: center;
+        background-color: rgb(179, 231, 10);
+        border: 10px groove rgb(19, 3, 3);
+}
+.align-content2{
+    
+    width:800px;
+    height: 500px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    align-items: start;
+}
+.align-content3{
+    
+    width:800px;
+    height: 500px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    align-items: end;
+}
+.alignDiv{
+    position: relative;
+    bottom: 600px;
+}
+.example1{
+    width:500px;
+    height: 200px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.exampleDiv1{
+    position: relative;
+    bottom: 1300px;
+}
+.example2{
+    width:500px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-items:start;
+}
+.exampleDiv2{
+    position: relative;
+    bottom: 1500px;
+    left:550px;
+}
+
+.example3{
+    width:500px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content:end;
+    align-items:end;
+}
+.exampleDiv3{
+    position: relative;
+    bottom: 1450px;
+    left:px;
+}
+
+.example4{
+    width:500px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.exampleDiv4{
+    position: relative;
+    bottom: 1300px;
+}
+.example5{
+    width:500px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-items:start;
+}
+.exampleDiv5{
+    position: relative;
+    bottom: 1500px;
+    left:550px;
+}
+
+.example6{
+    width:500px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content:end;
+    align-items:end;
+}
+.exampleDiv6{
+    position: relative;
+    bottom: 1450px;
+    left:px;
+}
+.example8{
+    width:500px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: row;
+    
+    justify-content:end;
+    align-items:start;
+}
+.exampleDiv8{
+    position: relative;
+    bottom: 1400px;
+    left:px;
+}
+.example9{
+    width:500px;
+    height: 300px;
+    background-color: rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column-reverse;
+    
+    justify-content:start;
+    align-items:start;
+}
+.exampleDiv9{
+    position: relative;
+    bottom: 1350px;
+    left:px;
+}
+
+
+
+
+
+
